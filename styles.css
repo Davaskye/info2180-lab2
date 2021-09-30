@@ -1,0 +1,57 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main sidebar'
+    'footer';
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar {grid-area: sidebar;}
+
+
+body {
+    font-size: 18px;
+    color: #2D3748;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif
+}
+
+#CirclePhoto {
+    border-radius: 50%;
+    width: 300px;
+}
+
+#LeftFloatImage {
+    float: left;
+    width: 200px;
+
+}
+
+#RightFloatImage {
+    float: right;
+    width: 200px;
+}
+
+header {
+    background-color: #63B3ED;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 21px;
+    color: #5A67D8;
+}
+
+p {
+    font-size: 18px;
+}
