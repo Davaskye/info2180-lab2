@@ -33,12 +33,14 @@ footer {
     grid-area: footer;
     color: #FFFFFF;
     background-color: #2C5282; 
-    padding-left:15px;
+    padding-left:150px;
 }
 
 main {
     grid-area: main;
     padding:15px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .date {
